@@ -55,6 +55,10 @@ body {
 
 }
 
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
 .box-right {
     background-color: #FFF;
     padding-top: 30px;
@@ -124,6 +128,10 @@ body {
     margin-bottom: 60px;
     color: #666;
 }
+.list-courses .item a:hover{ 
+    color: #FFF;
+    text-decoration: underline;
+}
 .list-courses .item h2{ 
     font-size: 32px;
     padding-top: 0;
@@ -132,12 +140,6 @@ body {
 .list-courses .item img{
     margin-left: 0px;
 }
-.list-courses ul li a:hover .item{
-    background-color: #FFF; 
-    border: 0px solid #BFBFBF;
-    background-color: white;
-    box-shadow: 6px 6px 3px #aaaaaa;
-}
 
 footer{
     margin: 30px;
@@ -145,22 +147,12 @@ footer{
     border-top: 1px #666 solid;
 }
 
+
+
+
 @media screen and (max-height: 450px) { 
 }
 @media screen and (max-width: 450px) { 
 }
 @media screen and (min-width: 768px){ 
-}
-
-.login-main-text{
-    margin-top: 6%;
-    padding: 30px;
-    color: #666;
-}
-.login-main-text h2{
-    font-weight: 300;
-}
-.btn-black{
-    background-color: #000 !important;
-    color: #fff;
 }
