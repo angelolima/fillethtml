@@ -37,6 +37,9 @@ body {
     background-color: #FAFAFC;
     padding: 30px 0 30px 0;
 }
+.box-left .list-courses p{
+    color: #6555C3;
+}
 .box-seach{
     font-family: "IndieFlowerRegular";
     width: 310px;
